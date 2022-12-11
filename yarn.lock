@@ -1538,11 +1538,6 @@
   resolved "https://registry.npmjs.org/@types/node/-/node-14.0.14.tgz#24a0b5959f16ac141aeb0c5b3cd7a15b7c64cbce"
   integrity sha512-syUgf67ZQpaJj01/tRTknkMNoBBLWJOBODF0Zm4NrXmiSuxjymFrxnTu1QVYRubhVkRcZLYZG8STTwJRdVm/WQ==
 
-"@types/node@11.11.6":
-  version "11.11.6"
-  resolved "https://registry.npmjs.org/@types/node/-/node-11.11.6.tgz#df929d1bb2eee5afdda598a41930fe50b43eaa6a"
-  integrity sha512-Exw4yUWMBXM3X+8oqzJNRqZSwUAaS4+7NdvHqQuFi/d+synz++xmX3QIf+BFqneW8N31R8Ky+sikfZUXq07ggQ==
-
 "@types/parse-json@^4.0.0":
   version "4.0.0"
   resolved "https://registry.npmjs.org/@types/parse-json/-/parse-json-4.0.0.tgz#2f8bb441434d163b35fb8ffdccd7138927ffb8c0"
@@ -2388,16 +2383,6 @@ bindings@^1.5.0:
   integrity sha512-p2q/t/mhvuOj/UeLlV6566GD/guowlr0hHxClI0W9m7MWYkL1F0hLo+0Aexs9HSPCtR1SXQ0TD3MMKrXZajbiQ==
   dependencies:
     file-uri-to-path "1.0.0"
-
-bip39@^3.0.2:
-  version "3.0.2"
-  resolved "https://registry.npmjs.org/bip39/-/bip39-3.0.2.tgz#2baf42ff3071fc9ddd5103de92e8f80d9257ee32"
-  integrity sha512-J4E1r2N0tUylTKt07ibXvhpT2c5pyAFgvuA5q1H9uDy6dEGpjV8jmymh3MTYJDLCNbIVClSB9FbND49I6N24MQ==
-  dependencies:
-    "@types/node" "11.11.6"
-    create-hash "^1.1.0"
-    pbkdf2 "^3.0.9"
-    randombytes "^2.0.1"
 
 block-stream@*:
   version "0.0.9"
@@ -3297,11 +3282,6 @@ crypto-browserify@^3.11.0:
     randombytes "^2.0.0"
     randomfill "^1.0.3"
 
-crypto-js@^4.0.0:
-  version "4.0.0"
-  resolved "https://registry.npmjs.org/crypto-js/-/crypto-js-4.0.0.tgz#2904ab2677a9d042856a2ea2ef80de92e4a36dcc"
-  integrity sha512-bzHZN8Pn+gS7DQA6n+iUmBfl0hO5DJq++QP3U6uTucDtk/0iGpXd/Gg7CGR0p8tJhofJyaKoWBuJI4eAO00BBg==
-
 css-blank-pseudo@^0.1.4:
   version "0.1.4"
   resolved "https://registry.npmjs.org/css-blank-pseudo/-/css-blank-pseudo-0.1.4.tgz#dfdefd3254bf8a82027993674ccf35483bfcb3c5"
@@ -4144,6 +4124,11 @@ eslint-plugin-react-hooks@^1.6.1:
   version "1.7.0"
   resolved "https://registry.npmjs.org/eslint-plugin-react-hooks/-/eslint-plugin-react-hooks-1.7.0.tgz#6210b6d5a37205f0b92858f895a4e827020a7d04"
   integrity sha512-iXTCFcOmlWvw4+TOE8CLWj6yX1GwzT0Y6cUfHHZqWnSk144VmVIRcVGtUAzrLES7C798lmvnt02C7rxaOX1HNA==
+
+eslint-plugin-react-hooks@^4.0.5:
+  version "4.6.0"
+  resolved "https://registry.npmmirror.com/eslint-plugin-react-hooks/-/eslint-plugin-react-hooks-4.6.0.tgz#4c3e697ad95b77e93f8646aaa1630c1ba607edd3"
+  integrity sha512-oFc7Itz9Qxh2x4gNHStv3BqJq54ExXmfC+a1NjAta66IAN87Wu0R/QArgIS9qKzX3dXKPI9H5crl9QchNMY9+g==
 
 eslint-plugin-react@7.19.0:
   version "7.19.0"
@@ -7088,23 +7073,6 @@ mixin-object@^2.0.1:
   dependencies:
     minimist "^1.2.5"
 
-mobx-react-lite@2:
-  version "2.0.7"
-  resolved "https://registry.npmjs.org/mobx-react-lite/-/mobx-react-lite-2.0.7.tgz#1bfb3b4272668e288047cf0c7940b14e91cba284"
-  integrity sha512-YKAh2gThC6WooPnVZCoC+rV1bODAKFwkhxikzgH18wpBjkgTkkR9Sb0IesQAH5QrAEH/JQVmy47jcpQkf2Au3Q==
-
-mobx-react@^6.2.2:
-  version "6.2.2"
-  resolved "https://registry.npmjs.org/mobx-react/-/mobx-react-6.2.2.tgz#45e8e7c4894cac8399bba0a91060d7cfb8ea084b"
-  integrity sha512-Us6V4ng/iKIRJ8pWxdbdysC6bnS53ZKLKlVGBqzHx6J+gYPYbOotWvhHZnzh/W5mhpYXxlXif4kL2cxoWJOplQ==
-  dependencies:
-    mobx-react-lite "2"
-
-mobx@^5.15.4:
-  version "5.15.4"
-  resolved "https://registry.npmjs.org/mobx/-/mobx-5.15.4.tgz#9da1a84e97ba624622f4e55a0bf3300fb931c2ab"
-  integrity sha512-xRFJxSU2Im3nrGCdjSuOTFmxVDGeqOHL+TyADCGbT0k4HHqGmx5u2yaHNryvoORpI4DfbzjJ5jPmuv+d7sioFw==
-
 moment@^2.27.0:
   version "2.27.0"
   resolved "https://registry.npmjs.org/moment/-/moment-2.27.0.tgz#8bff4e3e26a236220dfe3e36de756b6ebaa0105d"
@@ -7889,7 +7857,7 @@ path-type@^4.0.0:
   resolved "https://registry.npmjs.org/path-type/-/path-type-4.0.0.tgz#84ed01c0a7ba380afe09d90a8c180dcd9d03043b"
   integrity sha512-gDKb8aZMDeD/tZWs9P6+q0J9Mwkdl6xMV8TjnGP3qJVJ06bdMgkbBlLU8IdfOsIsFz2BW1rNVT3XuNEl8zPAvw==
 
-pbkdf2@^3.0.3, pbkdf2@^3.0.9:
+pbkdf2@^3.0.3:
   version "3.1.1"
   resolved "https://registry.npmjs.org/pbkdf2/-/pbkdf2-3.1.1.tgz#cb8724b0fada984596856d1a6ebafd3584654b94"
   integrity sha512-4Ejy1OPxi9f2tt1rRV7Go7zmfDQ+ZectEQz3VGUQhgq62HtIRPDyG/JtnwIxs6x3uNMwo2V7q1fMvKjb+Tnpqg==
@@ -8838,10 +8806,10 @@ qs@6.7.0:
   resolved "https://registry.npmjs.org/qs/-/qs-6.7.0.tgz#41dc1a015e3d581f1621776be31afb2876a9b1bc"
   integrity sha512-VCdBRNFTX1fyE7Nb6FYoURo/SPe62QCaAyzJvUjwRaIsc+NePBEniHlvxFmmX56+HZphIGtV0XeCirBtpDrTyQ==
 
-qs@^6.9.4:
-  version "6.9.4"
-  resolved "https://registry.npmjs.org/qs/-/qs-6.9.4.tgz#9090b290d1f91728d3c22e54843ca44aea5ab687"
-  integrity sha512-A1kFqHekCTM7cz0udomYUoYNWjBebHm/5wzU/XqrBRBNWectVH0QIiN+NEcZ0Dte5hvzHwbr8+XQmguPhJ6WdQ==
+qs@^6.9.7:
+  version "6.9.7"
+  resolved "https://registry.npmmirror.com/qs/-/qs-6.9.7.tgz#4610846871485e1e048f44ae3b94033f0e675afe"
+  integrity sha512-IhMFgUmuNpyRfxA90umL7ByLlgRXu6tIfKPpF5TmcfRLlLCckfP/g3IQmju6jjpu+Hh8rA+2p6A27ZSPOOHdKw==
 
 qs@~6.5.2:
   version "6.5.2"
